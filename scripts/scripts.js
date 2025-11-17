@@ -20,5 +20,8 @@ form.addEventListener("submit", function (e) {
 
     console.log(typeof localStorage.getItem("Ano"));
 
-    alert("Carro salvo");
+    alert("Carro cadastrado.");
+
+    form.reset();
+
 });
